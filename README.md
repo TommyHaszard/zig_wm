@@ -1,14 +1,6 @@
-# Juicebox
+# Zig_wm
 
-Juicebox is a tiled window manager written in [Zig](http://ziglang.org) with **no** dependencies. Its implementation with the X protocol is written from scratch, and instead provides handy features to make it easier for the developer to work with, while still remaining low level.
-
-## Features
-- Multiple workspaces
-- Configuration by modifying source code
-  - Optionally provide a config file that will be parsed during compilation
-  - Use `-Dconfig_path=<file_path>` to enable this functionality
-- No dependencies, just a simple binary
-- Small (code size, binary size, resource cost)
+This project has been forked from Juicebox - where I've used their native X11 implementation to play around with and  make my own tiling WM.
 
 ## Future goals
 - Provide an async event loop for X11
@@ -16,6 +8,3 @@ Juicebox is a tiled window manager written in [Zig](http://ziglang.org) with **n
 - General support for multiple screens
   - Also add support for Xinerama
 - Provide a translation layer to connect to/with different bars such as [Lemonbar](https://github.com/LemonBoy/bar). (Perhaps a bar of its own).
-
-### Screenshot
-![Screenshot Juicebox](screenshot.png "Juicebox")
